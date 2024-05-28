@@ -11,6 +11,7 @@
 		3AE4C4C92C047C43008A3B88 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE4C4C82C047C43008A3B88 /* ContentView.swift */; };
 		3AE4C4CB2C047C45008A3B88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AE4C4CA2C047C45008A3B88 /* Assets.xcassets */; };
 		3AE4C4CF2C047C45008A3B88 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AE4C4CE2C047C45008A3B88 /* Preview Assets.xcassets */; };
+		3AE4C4E12C05FB69008A3B88 /* SessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE4C4E02C05FB69008A3B88 /* SessionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,9 +19,10 @@
 		3AE4C4C62C047C43008A3B88 /* Screen_Fu_MasterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screen_Fu_MasterApp.swift; sourceTree = "<group>"; };
 		3AE4C4C82C047C43008A3B88 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3AE4C4CA2C047C45008A3B88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3AE4C4CC2C047C45008A3B88 /* Screen_Fu_Master.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Screen_Fu_Master.entitlements; sourceTree = "<group>"; };
 		3AE4C4CE2C047C45008A3B88 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3AE4C4D52C048070008A3B88 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3AE4C4E02C05FB69008A3B88 /* SessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionView.swift; sourceTree = "<group>"; };
+		3AE4C4E62C0628EA008A3B88 /* Screen_Fu_Master.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Screen_Fu_Master.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,10 +56,11 @@
 		3AE4C4C52C047C43008A3B88 /* Screen Fu Master */ = {
 			isa = PBXGroup;
 			children = (
+				3AE4C4E62C0628EA008A3B88 /* Screen_Fu_Master.entitlements */,
 				3AE4C4C62C047C43008A3B88 /* Screen_Fu_MasterApp.swift */,
 				3AE4C4C82C047C43008A3B88 /* ContentView.swift */,
+				3AE4C4E02C05FB69008A3B88 /* SessionView.swift */,
 				3AE4C4CA2C047C45008A3B88 /* Assets.xcassets */,
-				3AE4C4CC2C047C45008A3B88 /* Screen_Fu_Master.entitlements */,
 				3AE4C4CD2C047C45008A3B88 /* Preview Content */,
 			);
 			path = "Screen Fu Master";
@@ -143,6 +146,7 @@
 			files = (
 				3AE4C4C92C047C43008A3B88 /* ContentView.swift in Sources */,
 				3AE4C4C72C047C43008A3B88 /* Screen_Fu_MasterApp.swift in Sources */,
+				3AE4C4E12C05FB69008A3B88 /* SessionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
